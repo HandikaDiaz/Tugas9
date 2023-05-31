@@ -1,0 +1,92 @@
+<html>
+    <head>
+        <title>Testimonials</title>
+        <link rel="stylesheet" href="cs/style.css" />
+        <link rel="stylesheet" href="cs/testimonial.css" />
+    </head>
+    <body>
+        <nav>
+            <div class="nav-left">
+                <ul>
+                    <li>
+                        <a href="https://anoboy.monster/">
+                            <img  style="width: 50px;" src="Image/JR.jpg"/>
+                        </a>
+                    </li>
+                    <li class="item-collapse">
+                        <a href="home.html">Home</a>
+                    </li>
+                    <li class="item-collapse">
+                        <a href="blog.html">My Project</a>
+                    </li>
+                    <li class="item-collapse">
+                        <a class="active" href="testimonal.html">Testimonial</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <a href="contact.html">Contact Me</a>
+            </div>
+            <div class="nav-right" id="barsmenu">
+                <button style="background-color: transparent; border: none; cursor: pointer;"
+                        onclick="openHamburger()">
+                    <img style="width: 35px" src="Image/bars.png"/>
+                </button>
+            </div>
+        </nav>
+
+        <div class="hamburger-nav-container" id="hamburger-nav-container">
+            <a href="index.html" class="hamburger-active">Home</a>
+            <a href="blog.html">My Project</a>
+            <a href="testimonal.html">Testimonial</a>
+            <a href="contact.html">Contact Me</a>
+        </div>
+
+        <div class="container">
+            <h1>
+                My Testimonial
+            </h1>
+            <div class="container-rating-box">
+                <h2>Rating By Stars :</h2>
+                <div class="rating">
+                    <button class="rating-btn" onclick="getAllTestimonial()">All</button>
+                    <button class="rating-btn" onclick="getFilteredTestimonial(1)">1</button>
+                    <button class="rating-btn" onclick="getFilteredTestimonial(2)">2</button>
+                    <button class="rating-btn" onclick="getFilteredTestimonial(3)">3</button>
+                    <button class="rating-btn" onclick="getFilteredTestimonial(4)">4</button>
+                    <button class="rating-btn" onclick="getFilteredTestimonial(5)">5</button>
+                </div>
+            </div>
+            <section class="testimonial" id="testimonial">
+                <!-- <div class="testimonial-image">
+                    <img class="testimonial-profile" src="Image/chooper.webp" alt="" />
+                    <p class="quote">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, voluptatem veritatis cum et quae vitae dolores! Veniam dicta voluptate sint, sunt fugit unde quaerat repudiandae debitis neque inventore voluptates! Odio?
+                    </p>
+                    <p class="author">- Alexandria</p>
+                </div> -->
+
+                <!-- <div class="testimonial-image">
+                    <img class="testimonial-profile" src="Image/chooper.webp" alt="" />
+                    <p class="quote">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, voluptatem veritatis cum et quae vitae dolores! Veniam dicta voluptate sint, sunt fugit unde quaerat repudiandae debitis neque inventore voluptates! Odio?
+                    </p>
+                    <p class="author">- Alexandria</p>
+                </div>
+            </section>
+            <section class="testimonial" id="testimonial">
+                <div class="testimonial-image">
+                    <img class="testimonial-profile" src="Image/chooper.webp" alt="" />
+                    <p class="quote">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, voluptatem veritatis cum et quae vitae dolores! Veniam dicta voluptate sint, sunt fugit unde quaerat repudiandae debitis neque inventore voluptates! Odio?
+                    </p>
+                    <p class="author">- Alexandria</p>
+                </div> -->
+            </section>
+        </div>
+
+        
+        <script src="js/ajax.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>
